@@ -1,7 +1,6 @@
 
 % FUNCTIE DE O VARIABILA 
 
-
 % Definirea functiei
 f = @(x) x.^4 - 4*x.^2 + x;
 
@@ -25,7 +24,6 @@ title('Minimul functiei f(x)');
 
 
 %FUNCTIE DE DOUA VARIABILE 
-
 
 % Definirea functiei
 f = @(x) x(1).^2 + x(2).^2 + 3*sin(x(1)) - 2*cos(x(2));

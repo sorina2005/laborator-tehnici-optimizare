@@ -1,4 +1,4 @@
-% Definirea funcției de două variabile
+% Definirea functiei de doua variabile
 f = @(x, y) (1 - x).^2 + 100*(y - x.^2).^2;
 % Definirea domeniului
 x = linspace(-2, 2, 100);
@@ -16,7 +16,7 @@ colorbar;
 hold on;
 
 
-% Determinarea minimului global folosind optimizare neliniară
+% Determinarea minimului global folosind optimizare neliniara
 x0 = [0, 0]; % Punct de start
 [x_min, f_min] = fminunc(@(v) f(v(1), v(2)), x0);
 % Marcarea minimului global pe grafic

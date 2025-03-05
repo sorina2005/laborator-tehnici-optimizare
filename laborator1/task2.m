@@ -1,4 +1,3 @@
-clc; clear; close all;
 
 x = linspace(-5, 5, 100);
 y = linspace(-5, 5, 100);

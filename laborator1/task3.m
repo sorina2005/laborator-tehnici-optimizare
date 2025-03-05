@@ -1,4 +1,3 @@
-clc; clear; close all;
 
 % Definirea domeniului
 x = linspace(-5, 5, 100);

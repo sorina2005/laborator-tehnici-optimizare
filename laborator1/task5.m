@@ -1,4 +1,3 @@
-clc; clear; close all;
 
 % Definirea functiei f(x, y)
 f = @(x, y) x.^2 + 3*y.^2 + sin(x.*y);
@@ -18,7 +17,7 @@ dfdy = (f(P(1), P(2) + h) - f(P(1), P(2))) / h;
 % Gradientul in P
 grad_f = [dfdx, dfdy];
 
-% Derivata direcțională
+% Derivata directionala
 D_v_f = dot(grad_f, v);
 
-fprintf('Derivata direcțională numerică în P(%.2f, %.2f) pe direcția (%.2f, %.2f) este: %.4f\n', P(1), P(2), v(1), v(2), D_v_f);
+fprintf('Derivata directionala numerica în P(%.2f, %.2f) pe directia (%.2f, %.2f) este: %.4f\n', P(1), P(2), v(1), v(2), D_v_f);
